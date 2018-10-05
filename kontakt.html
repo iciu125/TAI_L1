@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytuł</title>
+    <link rel="Stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<section class="container-fluid">
+<div class="col-md-0">
+<H1>05.10.2018</H1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid asperiores beatae et explicabo
+    ipsum, iste libero minus nobis nulla officia officiis optio praesentium quo quos vero! Enim, voluptatibus! </p>
+</div>
+<ul>
+    <li>aaaaaaa</li>
+    <li>bbbbbbb</li>
+    <li>ccccccc</li>
+    <li>ddddddd</li>
+</ul>
+<ul class="list-group">
+    <a  href="index.html"><li class="list-group-item list-group-item-dark">Strona Główna</li></a>
+    <li class="list-group-item list-group-item-dark">Blog</li>
+    <li class="list-group-item list-group-item-dark">Quiz</li>
+    <a href="kontakt.html"><li class="list-group-item list-group-item-dark">Kontakt</li></a>
+</ul>
+</section>
+<div class="container">
+    <div class="offset-md-3 col-md-6">
+        <div class="form-area">
+            <form role="form">
+
+                <h3>Uzupełnij dane:</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="imię" name="imię" placeholder="Imię" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="nazwisko" name="nazwisko" placeholder="Nazwisko" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+                <span>Płeć</span><br>
+                <input type="radio" name="sex" id="woman" value="woman" required>
+                <label for="woman">Kobieta</label>
+                <div>
+                    <input type="radio" name="sex" id="man" value="man" required>
+                    <label for="man">Mężczyzna</label>
+                    <div class="form-group">
+                        <textarea class="form-control" type="textarea" id="wiadomość" placeholder="Wiadomość" maxlength="140" rows="7"></textarea>
+
+                    </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="telefon" name="telefon" placeholder="Telefon" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="wiek" name="wiek" placeholder="Wiek" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="stan cywilny" name="stan cywilny" placeholder="Stan cywilny" required>
+                </div>
+
+                </div>
+
+                <button type="button" id="wyczyść" name="wyczyść" class="btn btn-primary pull-right">Wyczyść formularz</button>
+                <button type="button" id="wyślij" name="wyślij" class="btn btn-primary pull-right">Wyślij</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
